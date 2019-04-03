@@ -1,0 +1,18 @@
+************************************************************************
+file with basedata            : j30_17.bas
+initial value random generator: 0
+************************************************************************
+projects                      :  1
+jobs (incl. supersource/sink ):  numTask
+horizon                       :  0
+RESOURCES
+  - renewable                 :  n   R
+  - nonrenewable              :  0   N
+  - doubly constrained        :  0   D
+************************************************************************
+PROJECT INFORMATION:
+pronr.  #jobs rel.date duedate tardcost  MPM-Time
+    1     numTask-2      0       0       0       0
+
+
+
