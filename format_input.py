@@ -165,6 +165,7 @@ class new_data_to_in_file(object):
         for edge in edges:
             if edge["target_id"] not in edge_dic.keys():
                 info_list.append([edge["target_id"], '1', '0'])
+                break
                 # info_list.append(finally_node)
         for key, value in edge_dic.items():
             sub_info_list = [key, '1', str(len(value))]
@@ -244,7 +245,7 @@ def continue_node_weapon_id(new_data_info):
 # 预留接口
 def get_resourceavailabilites(generic_view_nodes):
     # todo 获取资源限制
-    return [20, 20, 20, 20, 20]
+    return [20, 20, 20, 20, 20, 20]
 
 
 def get_format_input_data(generic_view_nodes, generic_view_edges, address):
